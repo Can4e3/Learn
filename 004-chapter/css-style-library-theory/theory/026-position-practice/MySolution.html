@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        div {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .square {
+            width: 200px;
+            height: 200px;
+            background-color: silver;
+        }
+
+        .circle {
+            border-radius: 50%;
+            width: 225px;
+            height: 225px;
+            background-color: gold;
+            z-index: 1;
+            animation: both;
+        }
+    </style>
+    <title>Figure</title>
+</head>
+
+<body>
+    <div class="square"></div>
+    <div class="circle"></div>
+</body>
+
+</html>
