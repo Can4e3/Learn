@@ -5,6 +5,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
+        .menu {
+            display: flex;
+            /* gap: 30px; */
+            justify-content: space-between;
+            flex-direction: row;
+        }
+
+        .menu ul {
+            /* border: 1px solid black; */
+            background-color: bisque;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 25%;
+        }
+
         body {
             font-family: Arial, sans-serif;
             background-color: #f4f4f4;
@@ -17,11 +32,11 @@
 
 <body>
     <ul class="menu">
-        <li>Главная</li>
-        <li>О&nbsp;нас</li>
-        <li>Услуги</li>
-        <li>Портфолио</li>
-        <li>Контакты</li>
+        <ul>Главная</ul>
+        <ul>О&nbsp;нас</ul>
+        <ul>Услуги</ul>
+        <ul>Портфолио</ul>
+        <ul>Контакты</ul>
     </ul>
 </body>
 
