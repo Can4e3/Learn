@@ -15,16 +15,33 @@
         body {
             /* Используется шрифт Montserrat для текста внутри body */
             font-family: 'Montserrat', sans-serif;
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            height: 100vh;
+            /* flex-basis: 300px; */
+
         }
 
         .card {
             /* Цвет фона карточки */
-            background-color: #fff;
+            background-color: bisque;
+            display: flex;
+
+            flex-direction: column;
+            min-height: 300px;
+            width: 300px;
+            margin: 10px;
+            align-items: center;
+            justify-content: space-between;
+            border-radius: 15px;
         }
 
         .card h2 {
             /* Внутренний отступ для заголовка h2 */
             margin: 5px;
+            text-align: center;
         }
 
 
@@ -38,17 +55,22 @@
 
         .button {
             /* Цвет фона кнопки */
-            /* background-color: #4CAF50; */
+            background-color: #f09617;
+            margin: 10px;
+            padding: 10px;
+            border-radius: 15px;
+            text-decoration: none;
         }
 
         .button:hover {
             /* Изменение цвета фона кнопки при наведении */
-            background-color: #37873b;
+            background-color: #53ecb1;
         }
 
         ul {
             /* Удаление маркеров списка */
             list-style: none;
+            padding: 0;
         }
 
         li {
